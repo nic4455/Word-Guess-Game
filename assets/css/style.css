@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/pitch_background.jpg")
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom:30px;
+    /* background-size: cover; */
+    margin-bottom: 40px;
+    
+}
+
+.row {
+    margin-top: 30px;
+}
+
+#selectPlayerPic {
+    align-content: center;
+}
+#clueBox {
+    margin-top: 30px;
+}

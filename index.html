@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classic World Cup Word Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="jumbotron" style="background-color: rgb(23, 102, 23); margin:0px">
+        <h1 class="display-3" style="color: lightgray">World Cup Hangman!</h1>
+        <p class="lead" style="color: lightgray">This is a simple game of hangman, featuring iconic stars of
+            international football over the past 25 years.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-5">
+                <div class="card card-body">
+                    <h2 class="card-title text-center">
+                        Player to be Guessed:
+                        <h2 class="card-text text-center" id="nameToBeGuessed">
+
+                        </h2>
+                    </h2>
+                </div>
+                <br>
+                <div class="card card-body">
+                    <h2 class="card-title text-center top">
+                        Wrong Letters:
+                    </h2>
+                    <h3 class="card-text text-center" id="wrongLetterGuesses">
+
+                    </h3>
+                </div>
+                <br>
+                <div class="card card-body">
+                    <h2 class="card-title text-center">
+                        Remaining Guesses:
+                    </h2>
+                    <h3 class="card-text text-center" id="remainingGuesses">
+                    </h3>
+
+
+                </div>
+                <br>
+
+                <div class="card card-body">
+                    <h2 class="card-title text-center">
+                        Wins:
+
+                    </h2>
+                    <h3 class="card-text text-center" id="winsHtml">
+
+                    </h3>
+
+                </div>
+                <br>
+                <div class="card card-body">
+                    <h2 class="card-title text-center">
+                        Losses:
+                    </h2>
+                    <h3 class="card-text text-center" id="losses">
+
+                    </h3>
+                </div>
+                <br>
+
+            </div>
+            <div class="col-2">
+                <p></p>
+            </div>
+            <div class="col-5">
+                <div class="card">
+
+                    <img class="card-img-top fluid center" id="selectPlayerPic" alt="Card image" style="height: 350">
+
+
+
+                    <div class="card-body">
+                        <h3 class="card-text text-center" id="playerNameBio">
+
+                        </h3>
+                    </div>
+
+
+                </div>
+                <div class="card card-body" id="clueBox">
+
+                    <h2 class="card-title text-center">
+                        Clue:
+                    </h2>
+                    <h3 class="card-text text-center" id="clueOfNationality">
+
+                    </h3>
+
+
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="assets/javascript/game.js">
+
+        </script>
+</body>
+
+</html>
