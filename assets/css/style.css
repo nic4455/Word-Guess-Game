@@ -4,7 +4,6 @@ body {
 .jumbotron {
     padding-top: 30px;
     padding-bottom:30px;
-    /* background-size: cover; */
     margin-bottom: 40px;
     
 }
@@ -18,4 +17,8 @@ body {
 }
 #clueBox {
     margin-top: 30px;
+}
+#clueVid {
+    margin-top: 30px;
+    
 }

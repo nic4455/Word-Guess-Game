@@ -17,7 +17,7 @@
     <div class="jumbotron" style="background-color: rgb(23, 102, 23); margin:0px">
         <h1 class="display-3" style="color: lightgray">World Cup Hangman!</h1>
         <p class="lead" style="color: lightgray">This is a simple game of hangman, featuring iconic stars of
-            international football over the past 25 years.</p>
+            international football over the past 25 years. If you guess the correct name, you will be shown an image of the player, and offered a video of highlights if you are inclined to learn more.</p>
     </div>
     <div class="container">
         <div class="row">
@@ -80,7 +80,8 @@
             <div class="col-5">
                 <div class="card">
 
-                    <img class="card-img-top fluid center" id="selectPlayerPic" alt="Card image" style="height: 350">
+                    <img class="card-img-top fluid center" id="selectPlayerPic" src="../Word-Guess-Game/assets/images/trophyStandIn.jpg"
+                        alt="Card image" style="height: 350">
 
 
 
@@ -95,7 +96,7 @@
                 <div class="card card-body" id="clueBox">
 
                     <h2 class="card-title text-center">
-                        Clue:
+                        Next player hint:
                     </h2>
                     <h3 class="card-text text-center" id="clueOfNationality">
 
@@ -103,6 +104,20 @@
 
 
                     </h3>
+                </div>
+                <div class="card" id="clueVid">
+
+                        
+                        <iframe class= "card-body center" id="selectPlayerVid" style="height: 350" src="https://www.youtube.com/embed/z2PJnLgOPyo?mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    
+    
+                        <div class="card-body">
+                            <h3 class="card-text text-center" id="playerNameBio">
+    
+                            </h3>
+                        </div>
+    
+    
                 </div>
             </div>
         </div>
